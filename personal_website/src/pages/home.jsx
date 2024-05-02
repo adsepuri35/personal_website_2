@@ -3,6 +3,7 @@ import { useState } from "react";
 import '../styles/App.css'
 import backgroundImage from '../assets/website_bg.jpg';
 import profile from '../assets/pfp.jpg';
+import suit from '../assets/suit.jpg';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
             <div class="desc">
                 I'm a computer science student at Georgia Tech focusing on AI and Systems Architecture (with a minor in math). I aim to apply my skills to fintech and software systems.
             </div>
-            <img class="pfp" src={profile} alt="Profile"></img>
+            <img class="pfp" src={suit} alt="Profile"></img>
             <div class="links">Relevant Links:</div>
             <div class="icon-container">
                 <a href="https://www.linkedin.com/in/advait-sepuri-8239a2214/" target="_blank">

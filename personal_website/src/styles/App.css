@@ -140,7 +140,6 @@ body, html {
 .company-container {
     height: 200vh;
     width: 40vw;
-    background-color: gray;
     position: absolute;
     top: 7%;
     left: 4.3%;
@@ -163,4 +162,22 @@ body, html {
     position: absolute;
     top: 7%;
     right: 4.3%;
+}
+
+.company {
+    width: 100%;
+    height: 15%;
+}
+
+#SiriusXM {
+    width: 17vw;
+    position: absolute;
+}
+
+#sxm-date {
+    color: white;
+    position: absolute;
+    top: 3.7vh;
+    right: 0%;
+    font-size: 1.7em;
 }
