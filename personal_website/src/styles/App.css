@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif; /* Set the font style to Poppins */
+}
+
+.home-bg {
+    background-image: url('../assets/website_bg.jpg');
+    background-size: cover;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    position: fixed; /* Fix the position of the div */
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+}
+
+.pfp {
+    width: 21vw; /* Set the width to 10% of the viewport width */
+    height: auto; /* Keep the aspect ratio of the image */
+    position: absolute; /* Position the image absolutely within the parent div */
+    top: 55%; /* Position at the middle of the parent div */
+    left: 50%; /* Position at the middle of the parent div */
+    transform: translate(-50%, -50%); /* Offset the image by half its width and height to center it */
+    border-radius: 50%;
+}
+
+.intro {
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 4%;
+    left: 40%;
+}
+
+.name {
+    color:#edb211;
+}
+
+.desc {
+    color: white;
+    font-size: 1.5em;
+    width: 43vw;
+    position: absolute;
+    top: 17%;
+    left: 45%;
+}
+
+.links {
+    font-size: 2em;
+    font-weight: 700;
+    position: absolute;
+    color: white;
+    top: 75%;
+    left: 12%;
+}
+
+.icon {
+    font-size: 5em;
+    color: #edb211;
+}
+
