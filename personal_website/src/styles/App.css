@@ -4,12 +4,17 @@
     font-family: 'Poppins', sans-serif; /* Set the font style to Poppins */
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 .home-bg {
     background-image: url('../assets/website_bg.jpg');
-    background-size: cover;
     height: 100vh; /* Set the height to 100% of the viewport height */
-    width: 100vw; /* Set the width to 100% of the viewport width */
-    position: fixed; /* Fix the position of the div */
+    width: 100%;
+    position: relative; /* Fix the position of the div */
     margin: 0; /* Remove margins */
     padding: 0; /* Remove padding */
     top: 0; /* Position at the top */
@@ -107,4 +112,17 @@
         opacity: 0;
         transform: rotate(45deg) translate(20px,20px);
     }
+}
+
+
+.exp-bg {
+    background-color: #121212;
+    background-size: cover;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% of the viewport width */
+    position: relative; /* Fix the position of the div */
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
 }
