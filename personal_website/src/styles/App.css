@@ -137,6 +137,15 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
+.company-container {
+    height: 200vh;
+    width: 40vw;
+    background-color: gray;
+    position: absolute;
+    top: 7%;
+    left: 4.3%;
+}
+
 .vertical-line {
     position: absolute;
     width: 0.3vw;
@@ -145,4 +154,13 @@ body, html {
     top: 7%;
     left: 50%;
     transform: translate(-50%, 0%);
+}
+
+.xp-desc-container {
+    height: 200vh;
+    width: 40vw;
+    background-color: gray;
+    position: absolute;
+    top: 7%;
+    right: 4.3%;
 }
