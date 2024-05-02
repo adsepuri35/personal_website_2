@@ -166,7 +166,6 @@ body, html {
 .company {
     width: 100%;
     height: 15%;
-    position: absolute;
 }
 
 #SiriusXM {
@@ -213,11 +212,32 @@ li {
 }
 
 #sxm-company {
-    height: 20%;
+    height: 16%;
+    background-color: black;
 }
 #sxm-item {
-    height: 20%;
+    height: 16%;
 }
 #sxm-pos {
     padding-top: 0vh;
+}
+
+#vip-company {
+    background-color: blue;
+}
+#vip {
+    width: 19vh;
+}
+#fung-group {
+    color: white;
+    font-size: 1.5em;
+    width: 15vw;
+}
+#vip-date {
+    color: white;
+    top: 0vh;
+    font-size: 1.7em;
+    text-align: right;
+    position: relative; /* Add this line */
+    top: -19vh; 
 }
