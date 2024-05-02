@@ -41,7 +41,7 @@ body, html {
 }
 
 .name {
-    color:#edb211;
+    color: #edb211;
 }
 
 .desc {
@@ -55,7 +55,7 @@ body, html {
 
 .links {
     font-size: 2.5em;
-    font-weight: 700;
+    font-weight: 600;
     position: absolute;
     color: white;
     top: 75%;
@@ -73,7 +73,7 @@ body, html {
     justify-content: space-around; /* Space the icons evenly with equal space around them */
     position: absolute;
     top: 83%;
-    left: 6.8%; 
+    left: 6.7%; 
 }
 
 /*Bobbing arrow animation */
@@ -116,7 +116,7 @@ body, html {
 
 
 .exp-bg {
-    background-color: #121212;
+    background-color: #141414;
     background-size: cover;
     height: 100vh; /* Set the height to 100% of the viewport height */
     width: 100%; /* Set the width to 100% of the viewport width */
@@ -125,4 +125,14 @@ body, html {
     padding: 0; /* Remove padding */
     top: 0; /* Position at the top */
     left: 0; /* Position at the left */
+}
+
+.exp-title {
+    color: #edb211;
+    font-size: 2.5em;
+    font-weight: 600;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
