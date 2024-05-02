@@ -118,7 +118,7 @@ body, html {
 .exp-bg {
     background-color: #141414;
     background-size: cover;
-    height: 100vh; /* Set the height to 100% of the viewport height */
+    height: 300vh; /* Set the height to 100% of the viewport height */
     width: 100%; /* Set the width to 100% of the viewport width */
     position: relative; /* Fix the position of the div */
     margin: 0; /* Remove margins */
@@ -132,7 +132,17 @@ body, html {
     font-size: 2.5em;
     font-weight: 600;
     position: absolute;
-    top: 8%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.vertical-line {
+    position: absolute;
+    width: 0.3vw;
+    height: 200vh;
+    background-color: #edb211;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
