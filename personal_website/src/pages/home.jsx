@@ -3,7 +3,7 @@ import { useState } from "react";
 import '../styles/App.css'
 import backgroundImage from '../assets/website_bg.jpg';
 import profile from '../assets/pfp.jpg';
-import { FaLinkedin, FaGithub, FaMail } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 function Home() {
     return (
@@ -24,7 +24,7 @@ function Home() {
                     <FaGithub className="icon"/>
                 </a>
                 <a href="mailto: advaitsepuri@gmail.com" target="_blank">
-                    <FaMail className="icon"/>
+                    <FaEnvelope className="icon"/>
                 </a>
             </div>
             

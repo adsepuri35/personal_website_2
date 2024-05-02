@@ -49,16 +49,24 @@
 }
 
 .links {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
     position: absolute;
     color: white;
     top: 75%;
-    left: 12%;
+    left: 10%;
 }
 
 .icon {
-    font-size: 5em;
+    font-size: 5.5em;
     color: #edb211;
 }
 
+.icon-container {
+    width: 22vw;
+    display: flex; /* Make the container a flex container */
+    justify-content: space-around; /* Space the icons evenly with equal space around them */
+    position: absolute;
+    top: 83%;
+    left: 6.8%; 
+}
