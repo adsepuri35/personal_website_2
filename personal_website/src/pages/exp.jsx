@@ -3,6 +3,7 @@ import icims from '../assets/icims.png';
 import siriusxm from '../assets/siriusxm.png';
 import vip from '../assets/vip.jpeg';
 import trading from '../assets/trading.jpg';
+import easy from '../assets/easy.png';
 
 function Experience() {
     return (
@@ -25,6 +26,10 @@ function Experience() {
                 <div class="company" id="icims-company">
                     <img id="icims" src={icims} alt="icims" />
                     <div id="icims-date">September 2022 - January 2023</div>
+                </div>
+                <div class="company" id="easy-company">
+                    <img id="easy" src={easy} alt="easy-donate" />
+                    <div id="easy-date">September 2022 - January 2023</div>
                 </div>
             </div>
             <div class="vertical-line"></div>
@@ -61,6 +66,15 @@ function Experience() {
                         <li>Utilized Figma to create wireframes and mockups to collaborate with HR to identify needs/preferences</li>
                         <li>Handled data retrieval/caching using REST APIs, reducing network latency by 25%</li>
                         <li>Implemented unit tests by using Jest to handle mocking and React Testing Library for component testing</li>
+                    </ul>
+                </div>
+                <div class="xp-item" id="easy-item">
+                    <div class="position" id="easy-pos">Full-Stack Web Development Intern</div>
+                    <ul>
+                        <li>Primed for official app launch by employing test-driven development and clean architectural principles, resulting in a 15% reduction in bug reports for scalable UI components</li>
+                        <li>Utilized React Native to develop a mobile app for iOS and Android, resulting in a 20% increase in user engagement</li>
+                        <li>Leveraged Flutter/Dart packages to monitor network connectivity changes and inspect network traffic logs</li>
+                        <li>Coordinated internal testing with development team to monitor app performance and cross-platform accessibility</li>
                     </ul>
                 </div>
             </div>

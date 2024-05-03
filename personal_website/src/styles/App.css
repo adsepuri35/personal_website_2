@@ -148,7 +148,7 @@ body, html {
 .vertical-line {
     position: absolute;
     width: 0.3vw;
-    height: 200vh;
+    height: 190vh;
     background-color: #edb211;
     top: 7%;
     left: 50%;
@@ -265,8 +265,7 @@ li {
 }
 
 #icims-company {
-    background-color: blue;
-    height: 20%;
+    height: 21%;
 }
 #icims {
     width: 15vw;
@@ -280,6 +279,23 @@ li {
     top: -7vh; 
 }
 #icims-item {
+    height: 21%;
+}
+
+#easy-company {
     height: 20%;
-    background-color: blue;
+}
+#easy {
+    width: 13vw;
+}
+#easy-date {
+    color: white;
+    top: 0vh;
+    font-size: 1.7em;
+    text-align: right;
+    position: relative; /* Add this line */
+    top: -15vh; 
+}
+#easy-item {
+    height: 20%;
 }
