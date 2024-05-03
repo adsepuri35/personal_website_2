@@ -118,7 +118,7 @@ body, html {
 .exp-bg {
     background-color: #141414;
     background-size: cover;
-    height: 300vh; /* Set the height to 100% of the viewport height */
+    height: 205vh; /* Set the height to 100% of the viewport height */
     width: 100%; /* Set the width to 100% of the viewport width */
     position: relative; /* Fix the position of the div */
     margin: 0; /* Remove margins */
@@ -127,7 +127,7 @@ body, html {
     left: 0; /* Position at the left */
 }
 
-.exp-title {
+.sect-title {
     color: #edb211;
     font-size: 2.5em;
     font-weight: 600;
@@ -298,4 +298,16 @@ li {
 }
 #easy-item {
     height: 20%;
+}
+
+.project-bg {
+    background-color: #141414;
+    background-size: cover;
+    height: 300vh; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% of the viewport width */
+    position: relative; /* Fix the position of the div */
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
 }
