@@ -22,6 +22,10 @@ function Experience() {
                     <img id="trad" src={trading} alt="trading" />
                     <div id="trading-date">September 2023 - Present</div>
                 </div>
+                <div class="company" id="icims-company">
+                    <img id="icims" src={icims} alt="icims" />
+                    <div id="icims-date">September 2022 - January 2023</div>
+                </div>
             </div>
             <div class="vertical-line"></div>
             <div class="xp-desc-container">
@@ -39,6 +43,15 @@ function Experience() {
                         <li>Investigating novel machine learning architectures with graph neural networks to capture spatial and chemical info</li>
                         <li>Developing data-driven algorithms using PyTorch for inverse design at the atomic level, to achieve chemical accuracy</li>
                         <li>Pre-training TorchMD (deep learning framework for molecular simulations) on QM9 dataset using de-noising, feature engineering, and hyperparameter tuning</li>
+                    </ul>
+                </div>
+                <div class="xp-item" id="trad-item">
+                    <div class="position" id="trad-pos">Trading Competition Director & Corporate Relations Executive</div>
+                    <ul>
+                        <li>Organizing annual international trading competition (registration, sponsor communication, logistics, etc.)</li>
+                        <li>Developing back-testing engine and game infrastructure with quantitative development team</li>
+                        <li>Establishing and maintaining connections with trading firms (D.E. Shaw, DRW, IMC, Old Mission, etc.)</li>
+                        <li>Managing organization’s resume booklet (500+) and planning recruiting/networking events with sponsors</li>
                     </ul>
                 </div>
             </div>

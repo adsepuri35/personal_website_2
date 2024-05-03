@@ -220,7 +220,7 @@ li {
 }
 
 #vip-company {
-    height: 20%;
+    height: 18%;
     background-color: blue;
 }
 #vip {
@@ -240,13 +240,46 @@ li {
     top: -19vh; 
 }
 #vip-item {
-    height: 20%;
+    height: 18%;
     background-color: blue;
 }
 
+
 #trad-company {
-    background-color: white;
+    background-color: black;
+    height: 19%;
+}
+#trading-date {
+    color: white;
+    top: 0vh;
+    font-size: 1.7em;
+    text-align: right;
+    position: relative; /* Add this line */
+    top: -10vh; 
 }
 #trad {
-    width: 10vw;
+    width: 18vw;
+}
+#trad-item {
+    height: 19%;
+    background-color: black;
+}
+#trad-pos {
+    font-size: 1.3em;
+}
+
+#icims-company {
+    background-color: blue;
+    height: 19%;
+}
+#icims {
+    width: 18vw;
+}
+#icims-date {
+    color: white;
+    top: 0vh;
+    font-size: 1.7em;
+    text-align: right;
+    position: relative; /* Add this line */
+    top: -10vh; 
 }
