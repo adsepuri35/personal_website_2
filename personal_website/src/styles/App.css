@@ -165,7 +165,6 @@ body, html {
 
 .company {
     width: 100%;
-    height: 15%;
 }
 
 #SiriusXM {
@@ -183,7 +182,6 @@ body, html {
 
 .xp-item {
     width: 100%;
-    position: absolute;
 }
 
 .position {
@@ -213,7 +211,6 @@ li {
 
 #sxm-company {
     height: 16%;
-    background-color: black;
 }
 #sxm-item {
     height: 16%;
@@ -223,7 +220,7 @@ li {
 }
 
 #vip-company {
-    background-color: blue;
+    height: 16%;
 }
 #vip {
     width: 19vh;
@@ -240,4 +237,7 @@ li {
     text-align: right;
     position: relative; /* Add this line */
     top: -19vh; 
+}
+#vip-item {
+    height: 16%;
 }

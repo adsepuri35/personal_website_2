@@ -28,6 +28,14 @@ function Experience() {
                         <li>Creating satellite distribution engineering documentation and coordinating knowledge transfer methodologies</li>
                     </ul>
                 </div>
+                <div class="xp-item" id="vip-item">
+                    <div class="position" id="vip-pos">Undergraduate Researcher</div>
+                    <ul>
+                        <li>Investigating novel machine learning architectures with graph neural networks to capture spatial and chemical info</li>
+                        <li>Developing data-driven algorithms using PyTorch for inverse design at the atomic level, to achieve chemical accuracy</li>
+                        <li>Pre-training TorchMD (deep learning framework for molecular simulations) on QM9 dataset using de-noising, feature engineering, and hyperparameter tuning</li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
