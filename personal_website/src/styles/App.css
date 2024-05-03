@@ -304,13 +304,14 @@ li {
 .project-bg {
     background-color: #141414;
     background-size: cover;
-    height: 300vh; /* Set the height to 100% of the viewport height */
+    height: 120vh; /* Set the height to 100% of the viewport height */
     width: 100%; /* Set the width to 100% of the viewport width */
     position: relative; /* Fix the position of the div */
     margin: 0; /* Remove margins */
     padding: 0; /* Remove padding */
     top: 0; /* Position at the top */
     left: 0; /* Position at the left */
+    overflow: hidden;
 }
 
 #block-logo {
@@ -328,11 +329,26 @@ li {
 }
 
 #block-item {
-    height: 55vh;
+    height: 60vh;
 }
 #block-pos {
     padding-top: 0vh;
 }
 #block {
-    height: 55vh;
+    height: 60vh;
+}
+
+#sensor {
+    height: 45vh;
+}
+#sensor-pic {
+    width: 25vw;
+    position: absolute;
+    left: 25%;
+}
+#sensor-item {
+    height: 45vh;
+}
+#sensor-pos {
+    padding-top: 0vh;
 }
