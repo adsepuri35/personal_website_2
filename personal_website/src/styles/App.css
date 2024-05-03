@@ -220,7 +220,8 @@ li {
 }
 
 #vip-company {
-    height: 16%;
+    height: 20%;
+    background-color: blue;
 }
 #vip {
     width: 19vh;
@@ -239,5 +240,13 @@ li {
     top: -19vh; 
 }
 #vip-item {
-    height: 16%;
+    height: 20%;
+    background-color: blue;
+}
+
+#trad-company {
+    background-color: white;
+}
+#trad {
+    width: 10vw;
 }

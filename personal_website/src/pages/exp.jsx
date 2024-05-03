@@ -2,6 +2,7 @@ import React from "react";
 import icims from '../assets/icims.png';
 import siriusxm from '../assets/siriusxm.png';
 import vip from '../assets/vip.jpeg';
+import trading from '../assets/trading.jpg';
 
 function Experience() {
     return (
@@ -16,6 +17,10 @@ function Experience() {
                     <img id="vip" src={vip} alt="vip" />
                     <div id="fung-group">Fung Research Group @ Georgia Tech CSE</div>
                     <div id="vip-date">January 2024 - Present</div>
+                </div>
+                <div class="company" id="trad-company">
+                    <img id="trad" src={trading} alt="trading" />
+                    <div id="trading-date">September 2023 - Present</div>
                 </div>
             </div>
             <div class="vertical-line"></div>
