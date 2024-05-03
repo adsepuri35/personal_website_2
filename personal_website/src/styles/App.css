@@ -136,6 +136,15 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#proj-title {
+    color: #edb211;
+    font-size: 2.5em;
+    font-weight: 600;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .left-container {
     height: 200vh;
