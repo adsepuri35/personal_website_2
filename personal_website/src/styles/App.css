@@ -137,7 +137,7 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
-.company-container {
+.left-container {
     height: 200vh;
     width: 40vw;
     position: absolute;
@@ -155,12 +155,13 @@ body, html {
     transform: translate(-50%, 0%);
 }
 
-.xp-desc-container {
+.right-container {
     height: 200vh;
     width: 40vw;
     position: absolute;
     top: 7%;
     right: 4.3%;
+
 }
 
 .company {
@@ -310,4 +311,28 @@ li {
     padding: 0; /* Remove padding */
     top: 0; /* Position at the top */
     left: 0; /* Position at the left */
+}
+
+#block-logo {
+    width: 22vw;
+    position: absolute;
+}
+#emulator {
+    width: 12vw;
+    position: absolute;
+    left: 60%;
+}
+#block-link {
+  color: white;
+  font-weight: bold;
+}
+
+#block-item {
+    height: 55vh;
+}
+#block-pos {
+    padding-top: 0vh;
+}
+#block {
+    height: 55vh;
 }

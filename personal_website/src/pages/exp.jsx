@@ -8,8 +8,8 @@ import easy from '../assets/easy.png';
 function Experience() {
     return (
         <div class="exp-bg">
-            <div class="exp-title">Experience</div>
-            <div class="company-container" id="sxm">
+            <div class="sect-title">Experience</div>
+            <div class="left-container" id="sxm">
                 <div class="company" id="sxm-company">
                     <img id="SiriusXM" src={siriusxm} alt="siriusxm" />
                     <div id="sxm-date">June 2024 - August 2024</div>
@@ -33,7 +33,7 @@ function Experience() {
                 </div>
             </div>
             <div class="vertical-line"></div>
-            <div class="xp-desc-container">
+            <div class="right-container">
                 <div class="xp-item" id="sxm-item">
                     <div class="position" id="sxm-pos">Systems Software Engineering Intern</div>
                     <ul>
