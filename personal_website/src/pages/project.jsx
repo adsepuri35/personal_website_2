@@ -6,7 +6,7 @@ import sensor from '../assets/sensor.png';
 function Project() {
     return (
         <div class="project-bg">
-            <div class="sect-title">Projects</div>
+            <div id="proj-title">Projects</div>
             <div class="left-container">
                 <div class="company" id="block">
                     <img src={block} id="block-logo"/>
