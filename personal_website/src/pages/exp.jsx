@@ -54,6 +54,15 @@ function Experience() {
                         <li>Managing organization’s resume booklet (500+) and planning recruiting/networking events with sponsors</li>
                     </ul>
                 </div>
+                <div class="xp-item" id="icims-item">
+                    <div class="position" id="icims-pos">Software Engineering Intern</div>
+                    <ul>
+                        <li>Developed a single-page interface using React for an end-to-end data pipeline integration, resulting in a streamlined process for recruiters to search and track candidates</li>
+                        <li>Utilized Figma to create wireframes and mockups to collaborate with HR to identify needs/preferences</li>
+                        <li>Handled data retrieval/caching using REST APIs, reducing network latency by 25%</li>
+                        <li>Implemented unit tests by using Jest to handle mocking and React Testing Library for component testing</li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
