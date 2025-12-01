@@ -52,11 +52,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </a>
-                <a href="https://github.com/adsepuri35/adaptive_options_trading_simulator" target="_blank" rel="noopener noreferrer" className="project-link">
+                <a href="https://github.com/adsepuri35/uniswap_v3_swap_tracker" target="_blank" rel="noopener noreferrer" className="project-link">
                     <div className="project-item">
                         <div className="left-section">
-                            <div className="project-name">Options Trading Simulator</div>
-                            <div className="project-desc">Simulate options trading for variable-volatility markets</div>
+                            <div className="project-name">Uniswap Tracking Terminal</div>
+                            <div className="project-desc">Track liquidity pools with Rust WebSockets</div>
                         </div>
                         <div className="right-section">
                             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="externalIcon"/>
