@@ -7,6 +7,7 @@ import icims from '../assets/icims.webp';
 import easy from '../assets/easy.png';
 import sxmblue from '../assets/sxmblue.jpg';
 import gtvc from '../assets/gtvc.jpeg';
+import console from '../assets/console.jpeg';
 
 const Experience = () => {
 
@@ -14,6 +15,20 @@ const Experience = () => {
         <div className="experience">
             <p className="section-title" id="exp-title">Experience</p>
             <div className="experience-container">
+                <div className="experience-block">
+                    <div className="left-content">
+                        <a href="https://www.console.com/" target="_blank" rel="noopener noreferrer" className='company-link'>
+                            <img src={console} alt="Console" className="company" />
+                        </a>
+                    </div>
+                    <div className="right-content">
+                        <div className="organization-position">
+                            <div className="organization">Console</div>
+                            <div className="position">Software Engineer</div>
+                        </div>
+                        <div className="date">2026</div>
+                    </div>
+                </div>
                 <div className="experience-block">
                     <div className="left-content">
                         <a href="https://www.alchemy.com/" target="_blank" rel="noopener noreferrer" className='company-link'>
