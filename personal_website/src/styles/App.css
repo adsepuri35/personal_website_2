@@ -39,6 +39,7 @@ body:before {
     max-width: 1000px; /* Set a maximum width */
     margin: 0 auto; /* Center the block */
     padding: 20px;
+    zoom: 85%;
 }
 
 @media (max-width: 500px) {
