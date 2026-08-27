@@ -5,7 +5,7 @@ const Intro = () => {
     return (
         <div className='intro'>
             <p>
-                Hi! I'm Advait, an engineer at Console. I'm graduated from <a href="https://www.cc.gatech.edu/" target = "_blank" rel="noopener noreferrer" className="gt-highlight">Georgia Tech</a> with a CS undergrad and concentrations in AI and systems architecture.
+                Hi! I'm Advait, an engineer at Console. I graduated from <a href="https://www.cc.gatech.edu/" target = "_blank" rel="noopener noreferrer" className="gt-highlight">Georgia Tech</a> with a CS undergrad and concentrations in AI and systems architecture.
                 <br />
                 <br />
                 My current interests include high-performance computing, AI infrastructure, and crypto. I also conduct research involving SAT solvers and advanced reinforcement models.
